@@ -39,6 +39,7 @@ class DraftBoard extends Component {
             headers: headers
         }).then(function(response) {
             response.json().then(function(res) {
+                console.log(res)
                 self.setState({
                     players: res.rankings,
                     filteredPlayers: res.rankings,
