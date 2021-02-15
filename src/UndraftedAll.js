@@ -40,12 +40,12 @@ function UndraftedAll(props) {
   )
 }
 
-UndraftedAll.propTypes = {
-  players: React.PropTypes.array.isRequired,
-  format: React.PropTypes.string.isRequired,
-  query: React.PropTypes.string.isRequired,
-  search: React.PropTypes.func.isRequired,
-  fetch: React.PropTypes.func.isRequired,
-};
+// UndraftedAll.propTypes = {
+//   players: React.PropTypes.array.isRequired,
+//   format: React.PropTypes.string.isRequired,
+//   query: React.PropTypes.string.isRequired,
+//   search: React.PropTypes.func.isRequired,
+//   fetch: React.PropTypes.func.isRequired,
+// };
 
 export default UndraftedAll

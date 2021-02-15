@@ -142,4 +142,4 @@ class DraftBoard extends Component {
     }
         
 
-            export default DraftBoard;
+export default DraftBoard;
