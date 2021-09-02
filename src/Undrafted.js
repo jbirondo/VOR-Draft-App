@@ -7,7 +7,7 @@ function Undrafted(props) {
   if (props.position) {
 
     players = players.filter(p => 
-      p["Pos"] === props.position);
+      p["POS"] === props.position);
   }
 
   players = players.sort((a, b) => a["Value Rank"] - b["Value Rank"]);
